@@ -776,7 +776,7 @@ body {
 .tour__field {
   position: absolute;
   width: 100%;
-  top: 200%;
+  top: 170%;
   z-index: -5;
 }
 
