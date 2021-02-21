@@ -170,7 +170,6 @@ body {
     border: 1px solid gray;
     margin: 0 auto;
     margin-top: 180px;
-    border: 1px solid rgba(104, 104, 104, 0.137);
     border-radius: 10px;
     margin-bottom: 70px;
     box-shadow: 2px 2px 10px  gray;
@@ -239,6 +238,10 @@ body {
 
 /*=====================PROJECT START=============================*/
 
+.project {
+    margin-bottom: 50px;
+}
+
 .project__title {
     @include section-title;
     margin-bottom: 70px;
@@ -303,6 +306,83 @@ body {
 
 /*=====================BUILDING START=============================*/
 
+.building {
+    margin-bottom: 70px;
+}
+
+.building__title {
+    @include section-title;
+    margin-bottom: 30px;
+}
+
+.building__desc {
+    @include par;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.building__form {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 35px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px  gray;
+    background-color: #fff;
+    &:hover {
+        box-shadow: 2px 2px 10px  $colr;
+    }
+}
+
+.form__title {
+    margin-bottom: 50px;
+}
+
+.building__input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    &::placeholder {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+.building__submit {
+    width: 200px;
+    line-height: 2rem;
+    background-color:$colr;
+    color: white;
+    outline: none;
+    border: none;
+    &:hover {
+        box-shadow: 2px 2px 10px  $colr;
+    }
+}
+
+.building__container {
+    position: relative;
+}
+
+.building__leave {
+    position: absolute;
+    z-index: -2;
+    top: 50px;
+    left: 20px;
+}
+
+.building__leave2 {
+    position: absolute;
+    transform: rotateY(180deg);
+    z-index: -2;
+    top: 250px;
+    right: 50px;
+}
 
 
 /*=====================BUILDING END=============================*/
