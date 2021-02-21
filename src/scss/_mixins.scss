@@ -1,0 +1,72 @@
+//для главного экрана
+@mixin offer-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.2rem;
+}
+
+//заголовки секций
+@mixin section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+//для карточек секции "Как мы будем работать с вами"
+@mixin subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+//заголовки карточек домов
+@mixin home-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.85rem;
+}
+
+//описание карточек домов
+@mixin home-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
+@mixin button-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: white;
+    text-align: center;
+}
+
+//остальной текст, параграфы
+@mixin par {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
