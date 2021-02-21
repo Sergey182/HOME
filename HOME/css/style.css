@@ -1230,6 +1230,12 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .howwork {
+    margin-bottom: 250px;
+  }
+}
+
 @media (max-width: 992px) {
   .howwork__item {
     width: 350px;
@@ -1314,6 +1320,10 @@ body {
 
   .header__subtitle {
     font-size: 15px;
+  }
+
+  .howwork {
+    margin-bottom: 200px;
   }
 
   .howwork__title {

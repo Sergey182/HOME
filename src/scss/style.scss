@@ -170,6 +170,12 @@ body {
 .howwork {
     width: 100%;
     margin-bottom: 400px;
+    @media (max-width: 1000px) {
+            margin-bottom: 250px;;
+        }
+    @media (max-width: 600px) {
+            margin-bottom: 200px;;
+        }
 }
 
 .howwork__title {
