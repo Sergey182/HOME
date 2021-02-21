@@ -110,6 +110,7 @@ body {
 
 .howwork {
     width: 100%;
+    margin-bottom: 400px;
 }
 
 .howwork__title {
@@ -189,7 +190,7 @@ body {
 
 .tour__field-pic {
     width: 100%;
-}
+    }
 
 .tour__container {
     position: relative;
@@ -227,11 +228,84 @@ body {
     right: -120px;
 }
 .leave-right-pic {
-     width: 100%;
+    width: 100%;
 }
 
 
 /*=====================HOW WORK END=============================*/
+
+
+/*=================================================================================*/ 
+
+/*=====================PROJECT START=============================*/
+
+.project__title {
+    @include section-title;
+    margin-bottom: 70px;
+}
+
+.project__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project__item {
+    width: 300px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.project__desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 230px;
+    padding: 20px;
+}
+
+.project__item-picture {
+    width: 300px;
+}
+
+.project__item-pic {
+    width: 100%;
+    display: block;
+}
+
+.desc-title {
+    @include home-desc;
+    margin-bottom: 20px;
+}
+
+.desc-specification {
+    margin-bottom: 10px;
+}
+
+.project__button {
+    margin: 0 auto;
+    width: 260px;
+    color: white;
+    background-color: $colr;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.5s;
+    &:hover {
+        box-shadow: 2px 2px 10px  $colr;
+    }
+}
+
+/*=====================PROJECT END=============================*/
+
+
+/*====================================================================================*/ 
+
+
+/*=====================BUILDING START=============================*/
+
+
+
+/*=====================BUILDING END=============================*/
 
 
 
