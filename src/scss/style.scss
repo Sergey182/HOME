@@ -169,7 +169,10 @@ body {
 
 .howwork {
     width: 100%;
-    margin-bottom: 400px;
+    margin-bottom: 70px;
+    padding-bottom: 200px;
+    background: url('../img/field.jpg') no-repeat center;
+    background-position-y: 800px;
     @media (max-width: 1000px) {
             margin-bottom: 250px;;
         }
@@ -286,20 +289,6 @@ body {
             max-width: 250px;
         }
 }
-
-.tour__field {
-    position: absolute;
-    width: 100%;
-    top: 170%;
-    z-index: -5;
-    @media (max-width: 767px)  {
-        display: none;
-}
-}
-
-.tour__field-pic {
-    width: 100%;
-    }
 
 .tour__container {
     position: relative;
@@ -662,9 +651,14 @@ body {
 
 /*=====================CALCULATION START=============================*/
 .calculation {
-    margin-bottom: 50px;
+    max-width: 100%;
+    height: 400px;
     position: relative;
+    background: url('../img/forest.jpg') no-repeat center; 
+
 }
+
+
 
 .calculation__form {
     max-width: 800px;
@@ -711,16 +705,7 @@ body {
         }
 }
 
-.calculation__pictures {
-    position: absolute;
-    z-index: -1;
-    top: -80px;
-    
-}
 
-.calculation__pic {
-    width: 100%;
-}
 /*=====================CALCULATION END=============================*/
 
 
@@ -732,7 +717,6 @@ body {
 .footer {
     width: 100%;
     height: 70px;
-    margin-top: 150px;
     background-color: #fff;
     @media (max-width: 480px) {
             margin-top: 10px;
